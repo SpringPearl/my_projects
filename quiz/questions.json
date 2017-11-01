@@ -1,0 +1,5 @@
+listOfquiz = '[{"question": "When was the Battle of Plassey fought?", "options": ["1757","1782","1748","1764"], "answer": 0},\
+			   {"question": "Who is the father of Geometry?", "options": ["Aristotle","Euclid","Pythagoras","Kepler"], "answer": 2},\
+			   {"question": "The great Victoria Desert is located in", "options": ["Canada","West Africa","Australia","North America"], "answer": 2},\
+			   {"question": "Eritrea, which became the 182nd member of the UN in 1993, is in the continent of", "options": ["Asia","Africa","Europe","Australia"],"answer": 1},\
+			   {"question": "The percentage of irrigated land in India is about", "options": ["45","65","35","25"], "answer": 2}]';

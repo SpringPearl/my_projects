@@ -1,0 +1,50 @@
+body{
+	background-image: url("/Users/Jagriti/Documents/javascript_test/my projects/quiz/photos/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 8%;
+	font-family: 'Playfair Display', serif;
+}
+
+h4{
+	padding-top: 4%;
+	font-style: italic;
+}
+
+#card{
+	background-color: #ffdb4d;
+	width:400px;
+	height: 500px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 20px;
+  	text-align: center;
+  	padding-top: 10%;
+}
+
+#authButton{
+	padding-top: 20%;
+	font-size: 20px;
+}
+
+#registerButton{
+	padding: 7% 4% 7% 4%;
+	border-radius: 50%;
+}
+
+#loginButton{
+	padding: 7% 6.5% 7% 6.5%;
+	border-radius: 50%;
+}
+
+.modal-body {
+    width:400px;
+	height: 500px;
+}
+
+.modal{
+	padding-top: 5%;
+}
+
+.modal-content{
+	background-color: #ffdb4d;
+}
