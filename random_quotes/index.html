@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quotes</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="getQuote()">
+	<div id="main">
+  		<div class="col-sm-3"></div>
+  		<div class="col-sm-6" id="displayQuotes">
+  			<h3 id="quotes">Random Quotes Machine</h3>
+  			<p id="author"></p>
+  			<button id="getQuote" class="btn btn-default pull-right">Get quote</button>
+  			<a id="tweetQuote" class="twitter-share-button" data-show-count="false" target="_blank"><i class="fa fa-twitter-square" id="twitterIcon" style="font-size:36px"></i></a>
+  		</div>
+  		<div class="col-sm-3"></div>
+	</div>
+	<script src="httprequest.js"></script>
+</body>
+</html>

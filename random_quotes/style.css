@@ -1,0 +1,46 @@
+body{
+	background-color: #0E0B16;
+}
+
+#main {
+	padding-top: 10%;
+}
+
+#displayQuotes{
+	background-color: #E7DFDD;
+	border-radius: 15px;
+	font-family: 'Crimson Text', serif;
+	padding-bottom: 4%;
+}
+
+#getQuote{
+	background-color: #C0B283;
+	padding: 1.5% 3% 1.5% 3%;
+	border-radius: 15px;
+	text-align: center;
+	color: #0E0B16;
+	font-size: 18px;
+}
+
+button:focus {outline:0 !important;}
+
+#quotes,#author{
+	color: #C0B283;
+}
+
+#quotes{
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+
+#author{
+	text-align: right;
+	font-size: 18px;
+	padding-bottom: 3%;
+}
+
+#twitterIcon{
+	color: #C0B283;
+	padding-top: 3%;
+	padding-left: 2%; 
+}
