@@ -44,3 +44,9 @@ button:focus {outline:0 !important;}
 	padding-top: 3%;
 	padding-left: 2%; 
 }
+
+#footer{
+	text-align: center;
+	color: #C0B283;
+	padding-top: 1%;
+}
