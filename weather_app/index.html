@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Frank+Ruhl+Libre" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="css/owfont-regular.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Local Weather App</h1>
+		<div id="container">
+			<div class="row text-center" id="main">
+			<div class="col-sm-3"></div>
+			<div class="col-sm-6" id="weather-container">
+				<div class="row" id="weather">
+					<div class="col-sm-4">
+						<i id="icon"></i>
+					</div>
+					<div class="col-sm-4">
+						<div id="getweather">
+							<p id="location"></p>
+							<p id="desc"></p>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<p id="temp"></p>
+						<p id="temp-min-max"></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3"></div>
+			</div>
+			<div id="metricsButton" class="text-center">
+				<button id="celsius" class="btn btn-default">&#8451;</button>
+				<button id="fahrenheit" class="btn btn-default">&#8457;</button>
+			</div>
+		</div>
+		<div id="footer">Created by Jagriti</div>
+		<script type="text/javascript" src ="script.js"></script>
+	</body>
+</html>

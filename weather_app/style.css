@@ -1,0 +1,70 @@
+body{
+	color: #4997D0;
+	font-family: 'Bree Serif', serif;
+}
+
+#container{
+	min-height: 100%;
+	position: relative;
+}
+
+h1{
+	padding-top: 2%;
+	font-size: 50px;
+	text-align: center;
+}
+
+#main{
+	padding-top: 3%;
+}
+
+#weather-container{
+	border-top: 2px solid #4997D0;
+	border-bottom: 2px solid #4997D0;
+	font-family: 'Frank Ruhl Libre', serif;
+}
+
+#weather{
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+
+#icon{
+	font-size: 80px;
+}
+
+#location{
+	font-size: 30px;
+}
+
+#desc{
+	font-size: 20px;
+}
+
+#temp{
+	font-size: 50px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+#temp-min-max{
+	font-size: 20px;
+}
+
+#metricsButton{
+	padding-top: 2%;
+}
+
+#celsius,#fahrenheit{
+	background-color:#4997D0;
+	color: #ffffff;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;
+   color:#000000;
+   text-align: center;
+}
